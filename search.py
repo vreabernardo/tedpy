@@ -5,7 +5,6 @@ import time
 from tqdm import tqdm
 from datetime import datetime
 
-
 class SearchTed:
     def __init__(self):
         self.search_url = "https://api.ted.europa.eu/v3/notices/search"
